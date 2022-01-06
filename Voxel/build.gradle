@@ -1,0 +1,22 @@
+plugins{
+    id 'java'
+}
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.lwjgl:lwjgl:3.2.0"
+    implementation "org.lwjgl:lwjgl-assimp:3.2.0"
+    implementation "org.lwjgl:lwjgl-glfw:3.2.0"
+    implementation "org.lwjgl:lwjgl-openal:3.2.0"
+    implementation "org.lwjgl:lwjgl-opengl:3.2.0"
+    implementation "org.lwjgl:lwjgl-stb:3.2.0"
+    runtimeOnly "org.lwjgl:lwjgl:3.2.0:natives-windows"
+    runtimeOnly "org.lwjgl:lwjgl-assimp:3.2.0:natives-windows"
+    runtimeOnly "org.lwjgl:lwjgl-glfw:3.2.0:natives-windows"
+    runtimeOnly "org.lwjgl:lwjgl-openal:3.2.0:natives-windows"
+    runtimeOnly "org.lwjgl:lwjgl-opengl:3.2.0:natives-windows"
+    runtimeOnly "org.lwjgl:lwjgl-stb:3.2.0:natives-windows"
+    implementation "org.joml:joml:1.10.2"
+}
